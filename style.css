@@ -8,7 +8,7 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexible{
     display: flex;
 }
 .half-width{
@@ -30,4 +30,29 @@ section{
     background-image: url(images/pngwing.com.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-section{
+    background-image: url(images/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+.ex-item-1{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, rgb(110, 110, 245));
+    border-image-slice: 1;
+}
+.ex-item-2{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(97, 167, 237), rgb(53, 53, 150));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
 }
